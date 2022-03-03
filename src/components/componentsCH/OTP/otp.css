@@ -1,17 +1,22 @@
 .bod{
-    margin-top: 4rem;
+    margin-top: 2rem;
+    margin-left: 9%;
     display: flex;
-    border: 1px solid red;
+   
+}
+.high{
+    margin-top: 2rem;
 }
 
 #mai{
     width: 350px;
-    height: 300px;
+    height: 350px;
     margin-top: 2rem;
+    margin-left: 2%;
     border: 1px solid rgb(194, 194, 194);
 }
 p{
-    margin-left: 1.5rem;
+    margin-left: 0rem;
 }
 .heading{
     padding: .5rem;
@@ -20,28 +25,36 @@ p{
 .mes{
     color: black;
     font-size: small;
+    margin-left: 10px;
 }
 .alert{
-    margin-top: 1rem;;
+    margin-top: 0.5rem;;
     font-size: large;
 }
-input{
+.otp{
+    margin-left: 1rem;
+    margin-top: -1.5rem;
+}
+.input{
     width: 80%;
     padding: 0.5rem;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
     margin-top: .5rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid grey;
 }
 .but{
-    margin-left: 1.5rem;
-    width: 86%;
+    margin-left: 1rem;
+    width: 90%;
     padding: 0.5rem;
-    border-radius: 4px;;
+    border-radius: 4px;
     border: 1px solid rgb(0, 183, 255);
     background-color: rgb(0, 183, 255);
     color: black
-}.pin{
-    margin-bottom: 1rem;
+}
+.pin{
+    margin-left: 12px;
+    margin-top: 6px;
     color: rgb(0, 183, 255) ;
 }
 .pin:hover{

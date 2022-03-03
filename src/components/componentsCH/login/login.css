@@ -27,19 +27,19 @@
 }
 .checking{
     display: flex;
-    margin-left: -2rem;
+    margin-left: 6.5rem;
 }
 .checking > p{
     margin-top: 0.5rem;
-    margin-left: 4rem;
+    margin-left: 3rem;
     color: rgb(0, 178, 248);
 }
 .checkbox1{
-    margin-left: -6.7rem;
+    margin-left: -6.5rem;
     margin-top: 11px;
 }
 .label{
-    margin-left: -8.4rem;
+    margin-left: 0.5rem;
 }
 
 .login > .button{

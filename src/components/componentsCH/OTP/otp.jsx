@@ -65,9 +65,9 @@ const OTP = () =>{
                 <p className="mes">We have sent you an OTP on</p>
                 <p className="alert">Alert Message</p>
                 <br />
-                <p>OTP</p>
+                <p className="otp">OTP</p>
                 <div className="flex">
-                    <input type="number" placeholder="Please enter the 3 digit OTP here to verify" />
+                    <input type="number" placeholder="Please enter the 3 digit OTP here to verify" className="input"/>
                     <p className="pin" onClick={generateOtp}>Resend OTP</p>
                 </div>
                 <button className="but" onClick={Change}>Login</button>
