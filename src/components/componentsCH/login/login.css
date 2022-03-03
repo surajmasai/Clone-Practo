@@ -1,0 +1,56 @@
+.login{
+    width: 350px;
+    height: 300px;
+    background:#fff;
+    border: 1px solid #dddfe2;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16p rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    margin-top: 2rem;
+    padding: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.login > input{
+    border-radius: 8px;
+    border: 1px solid rgb(190, 190, 190);
+    outline: none;
+    color: #1d2129;
+    margin: 0.5rem 0;
+    padding: 0.5rem 0.75rem;
+    width: 92%;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.checking{
+    display: flex;
+    margin-left: -2rem;
+}
+.checking > p{
+    margin-top: 0.5rem;
+    margin-left: 4rem;
+    color: rgb(0, 178, 248);
+}
+.checkbox1{
+    margin-left: -6.5rem;
+}
+.label{
+    margin-left: -8.5rem;
+}
+
+.login > .button{
+    background: #1877f2;
+    border: 1px solid #1877f2;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.nill{
+    display: flex;
+    margin-top: 4rem;
+}

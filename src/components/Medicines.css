@@ -1,0 +1,152 @@
+.headBGcolor1 {
+  background-color: #e7f1f8;
+}
+
+.headBGcolor2 {
+  background-color: #f7e8e6;
+}
+
+.headBGcolor3 {
+  background-color: #eeebf8;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.contact_lab {
+  width: 100%;
+  height: 20%;
+  background-color: #e6f5fc;
+  border-radius: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_pic p:nth-child(1) {
+  padding-top: 3%;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.contact_pic p:nth-child(2) {
+  padding-top: 0%;
+  font-weight: lighter;
+  font-size: 12px;
+  line-height: 0px;
+}
+
+.contact_num {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  margin-right: 2%;
+}
+
+.promo_code>h4 {
+  text-align: left;
+}
+
+.promo_img {
+  display: flex;
+  gap: 10%;
+}
+
+.promo_img>img {
+  margin-top: 1%;
+  width: 26%;
+}
+
+.top_tests>h4 {
+  text-align: left;
+}
+
+.test_flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 6px;
+}
+
+.test_div {
+  width: 18%;
+
+  border: 0.5px solid rgb(243, 241, 241);
+  text-align: left;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.test_div:hover {
+  box-sizing: border-box;
+  transition: 0.5s;
+
+  border-color: darkgray;
+}
+
+.test_div>p:nth-child(2) {
+  font-size: 12px;
+  color: rgb(92, 78, 78);
+}
+
+.test_div>p:nth-child(3) {
+  font-size: 14px;
+  color: rgb(92, 91, 91);
+}
+
+.test_div>p:nth-child(6) {
+  font-size: 14px;
+  color: rgb(92, 91, 91);
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(79, 197, 218);
+}
+
+.health_img {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  flex-flow: row;
+  overflow-x: auto;
+  padding: 5px;
+}
+
+.h_img>img {
+  width: 300px;
+}
+
+.health_div {
+  /* text-align: left; */
+  /* width: 70%; */
+  margin: auto;
+  max-width: 1180px;
+}
+
+.health_img>button {
+  border: none;
+  border-style: none;
+  border: 0;
+  background: transparent;
+}
+
+.introducing_stuff {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  /* border: 2px solid black */
+}
+
+.introducing_stuff img {
+  width: 500px;
+  height: 250px;
+  border: none;
+}
+
+.introducing_stuff p {
+  font-size: 25px;
+  font-weight: 300;
+  color: rgb(92, 91, 91);
+}

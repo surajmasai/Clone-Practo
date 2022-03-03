@@ -1,0 +1,49 @@
+.navbar {
+    width: 100%;
+    height: 60px;
+}
+.navbar > img{
+    width: 8%;
+    height: 50px;
+    margin-left: 4%;
+
+}
+
+.grey{
+    
+    background-color: #f0f0f5;
+    width: 100%;
+    height: 100ex;
+    
+    
+}
+
+.modal_div{
+    border: 1px solid #f0f0f5;
+    width: 55%;
+    margin-left: 23%;
+    text-align: left;
+    background-color: white;
+}
+
+.modal_div > div{
+    padding-left: 4%;
+    padding: 2% 2% 2% 2%;
+    border: 1px solid #f0f0f5;
+}
+
+.modal_div >div:nth-child(1){
+    background-color: #28328c;
+    color: white;
+}
+
+.save_btn{
+    width: 20%;
+    padding: 1% 1% 1% 1%;
+    border: 2px solid #199fd9;
+    border-radius: 5px;
+    background-color: white;
+    color: #199fd9;
+    font-weight: bold;
+    margin-left: 4%;
+   }

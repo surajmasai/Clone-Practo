@@ -1,0 +1,31 @@
+.maindetails {
+  width: 60%;
+  margin: auto;
+  /* border: 2px solid blue; */
+  display: grid;
+  grid-template-columns: 40% 50%;
+  padding: 20px;
+}
+.left {
+  padding: 10px;
+}
+
+.unitcount {
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: center;
+}
+.addtocartbtn {
+  width: 90%;
+  height: 40px;
+  text-decoration: none;
+  background-color: #27bef0;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.right {
+  padding: 10px;
+}

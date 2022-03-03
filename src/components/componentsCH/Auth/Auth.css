@@ -1,0 +1,62 @@
+body {
+    color: white;
+    /* font-family: 'Camphor' !important; */
+}
+
+.high {
+    width: 100%;
+    display: flex;
+    margin-left: 40%;
+    margin-bottom: .1rem;
+    gap: 4rem;
+}
+
+.auth {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.auth>.line {
+    width: 100%;
+    color: whitesmoke;
+    margin-left: 0%;
+}
+
+button {
+    border: none;
+    font-size: 16px;
+    background-color: white;
+}
+
+.first {
+    padding: .5rem;
+    border-bottom: white;
+}
+
+.first :hover {
+    color: rgb(0, 183, 255);
+}
+
+.first :focus {
+    color: #00b7ff;
+    border-bottom: rgb(0, 183, 255);
+}
+
+.body {
+    display: flex;
+}
+
+.second {
+    padding: .5rem;
+    border-bottom: white;
+
+}
+
+.second :hover {
+    color: #00b7ff;
+}
+
+.second :focus {
+    color: rgb(0, 183, 255);
+    border-bottom: rgb(0, 183, 255);
+}

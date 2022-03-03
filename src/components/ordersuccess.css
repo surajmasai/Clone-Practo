@@ -1,0 +1,49 @@
+.navbar {
+    width: 100%;
+    height: 60px;
+}
+.navbar > img{
+    width: 8%;
+    height: 50px;
+    margin-left: 4%;
+
+}
+
+.grey_color{
+    
+    background-color: #f0f0f5;
+    width: 100%;
+  
+    
+    
+}
+
+.grey_color > img{
+    
+   
+    width: 15%;
+  
+    
+    
+}
+
+
+.save_btn{
+    width: 20%;
+    padding: 1% 1% 1% 1%;
+    border: 2px solid #199fd9;
+    border-radius: 6px;
+    background-color: white;
+    color: #199fd9;
+    font-weight: bold;
+  
+   }
+
+ 
+
+   .last_order_p{
+       text-align: left;
+       
+       color: grey;
+       font-size: 10px;
+   }

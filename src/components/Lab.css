@@ -1,0 +1,274 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.contact_lab {
+    width: 100%;
+    height: 20%;
+    background-color: #e6f5fc;
+    ;
+    border-radius: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_pic {
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: left;
+
+}
+
+.contact_pic img {
+    margin-right: 10px;
+}
+
+.contact_pic p:nth-child(1) {
+    padding-top: 3%;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.contact_pic p:nth-child(2) {
+    padding-top: 0%;
+    font-weight: lighter;
+    font-size: 12px;
+    line-height: 0px;
+
+}
+
+
+
+.contact_num {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-right: 2%;
+
+}
+
+.promo_code>h4 {
+    text-align: left;
+}
+
+.promo_img {
+    display: flex;
+    gap: 10%;
+}
+
+.promo_img>img {
+    margin-top: 1%;
+    width: 26%;
+
+}
+
+.top_tests>h4 {
+    text-align: left;
+}
+
+.test_flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 6px;
+
+}
+
+
+
+.test_div {
+    width: 18%;
+
+    border: 0.5px solid rgb(243, 241, 241);
+    text-align: left;
+    padding-top: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.test_div:hover {
+    box-sizing: border-box;
+    transition: 0.8s;
+    box-shadow: 0.5px 0.5px 2px 2px rgba(126, 124, 124, 0.5);
+    ;
+
+}
+
+.test_div>p:nth-child(2) {
+    font-size: 12px;
+    color: rgb(92, 78, 78);
+}
+
+.test_div>p:nth-child(3) {
+    font-size: 14px;
+    color: rgb(92, 91, 91);
+}
+
+.test_div>p:nth-child(6) {
+    font-size: 14px;
+    color: rgb(92, 91, 91);
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(79, 197, 218);
+}
+
+.health_img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 5px;
+}
+
+.h_img>img {
+    width: 75%;
+}
+
+.health_div>h4 {
+    text-align: left;
+}
+
+.health_img p {
+    padding-top: 1%;
+    font-weight: bolder;
+}
+
+.health_img p:hover {
+    color: rgb(79, 197, 218)
+}
+
+.grey_bar {
+    width: 100%;
+    height: 10px;
+    background-color: #f0f0f5;
+}
+
+.test_medical {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.tests {
+    width: 32%;
+    border: 1px solid #f0f0f5;
+
+}
+
+.tests img {
+    width: 10%;
+    margin-left: 1%;
+    margin: 1% 1% 1% 1%;
+}
+
+.flex {
+    display: flex;
+
+}
+
+.tests h5 {
+    padding-left: 2%;
+    padding-top: 2%;
+
+}
+
+.tests>div {
+    border: 1px solid #f0f0f5;
+}
+
+.tests>div:hover {
+    background: #f0f0f5;
+}
+
+
+.tests p {
+    padding-left: 3%;
+    color: grey;
+    font-size: 13px;
+}
+
+.tests h6 {
+    padding-left: 3%;
+    padding-top: 1%;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+
+.tests>button {
+    border: none;
+    color: white;
+    background: #199fd9;
+    border-radius: 2px;
+    margin-left: 3%;
+    font-size: 10px;
+    font-weight: bolder;
+    width: 30%;
+    height: 8%;
+}
+
+.left {
+    text-align: left;
+}
+
+.left>strong {
+    color: #199fd9;
+    font-weight: lighter;
+}
+
+.small_line {
+    width: 70px;
+    height: 5px;
+    background-color: #f0f0f5;
+    margin-top: 30px;
+    text-align: center;
+
+}
+
+.written_flex {
+    display: flex;
+    gap: 40px;
+}
+
+.great_flex {
+    display: flex;
+    background-color: #f0f0f5;
+
+
+}
+
+.great_flex div {
+    padding-right: 3%;
+}
+
+.back_grey {
+    background-color: #f0f0f5
+}
+
+.h3 h3 {
+    font-weight: normal;
+    padding: 3%;
+    padding-right: 3%;
+}
+
+.font {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.last_div>p {
+    font-size: 13px;
+    text-align: left;
+}
+
+.p {
+    font-size: 10px;
+}
+
+.p>strong {
+    color: #199fd9;
+    font-weight: normal;
+}

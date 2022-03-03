@@ -1,0 +1,46 @@
+.medicine {
+  /* border: 2px solid red; */
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+}
+.mainMedicine {
+  /* border: 1px solid blue; */
+  padding: 10px;
+}
+.mainMedicine:hover {
+  border: 1px solid grey;
+}
+
+.M_img {
+  width: 280px;
+}
+
+/* hr {
+  width: 95%;
+} */
+.m_price1 {
+  text-decoration: line-through;
+}
+.m_discount {
+  color: green;
+}
+.m_unitbtn {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.m_unitbtn > button {
+  text-decoration: none;
+  border-color: #27bef0;
+  color: #27bef0;
+  background-color: white;
+  font-weight: bolder;
+  font-size: 15px;
+  cursor: pointer;
+}
+.m_unitbtn > button:hover {
+  background-color: #27bef0;
+  color: white;
+}
