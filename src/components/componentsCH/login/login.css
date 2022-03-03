@@ -1,6 +1,6 @@
 .login{
-    width: 350px;
-    height: 300px;
+    width: 360px;
+    height: 380px;
     background:#fff;
     border: 1px solid #dddfe2;
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16p rgb(0 0 0 / 10%);
@@ -9,6 +9,9 @@
     padding: 1rem;
     align-items: center;
     text-align: center;
+}
+.normal{
+    margin-top: -30px
 }
 
 .login > input{
@@ -32,10 +35,11 @@
     color: rgb(0, 178, 248);
 }
 .checkbox1{
-    margin-left: -6.5rem;
+    margin-left: -6.7rem;
+    margin-top: 11px;
 }
 .label{
-    margin-left: -8.5rem;
+    margin-left: -8.4rem;
 }
 
 .login > .button{

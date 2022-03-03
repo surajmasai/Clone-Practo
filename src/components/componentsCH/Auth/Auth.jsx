@@ -46,7 +46,7 @@ import Login from "../login/login";
             <div className="body">
                  
                  <div id="main">
-                    {state};
+                    {state}
                  </div>
             </div>
         </div>
