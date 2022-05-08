@@ -11,7 +11,7 @@ export const SearchDoctor = () => {
     const [doctors, setDoctors] = useState([]);
 
     const getDoctorsDetails = () => {
-        fetch(`http://localhost:5001/doctors?speciality_like=${searchParams.get('speciality')}&location_like=${searchParams.get('location')}`)
+        fetch(`https://practo-suraj-server.herokuapp.com/doctors?speciality_like=${searchParams.get('speciality')}&location_like=${searchParams.get('location')}`)
             .then(res => res.json())
             .then(data => setDoctors(data))
             .catch(err => console.log(err))

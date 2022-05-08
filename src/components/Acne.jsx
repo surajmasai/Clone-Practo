@@ -12,7 +12,7 @@ export const Acne = () => {
     const [data, setData] = useState([])
 
     useEffect(() => {
-        fetch("http://localhost:5001/acne")
+        fetch("https://practo-suraj-server.herokuapp.com/acne")
             .then(d => d.json())
             .then((res) => {
                 // console.log('res:', res)
@@ -32,8 +32,6 @@ export const Acne = () => {
         <div className="medicine">
 
             {data.map((e, i) =>
-
-
 
                 <div className="mainMedicine">
                     <Link className="know_more" to={`/acne/${e.id}`}>

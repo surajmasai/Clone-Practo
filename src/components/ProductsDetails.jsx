@@ -11,7 +11,7 @@ export const ProductsDetails = () => {
 
 
     useEffect(() => {
-        fetch(`http://localhost:5001/${type}/${userid}`)
+        fetch(`https://practo-suraj-server.herokuapp.com/${type}/${userid}`)
             .then(d => d.json())
             .then((res) => {
                 // console.log('res:', res)

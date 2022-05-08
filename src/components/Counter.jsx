@@ -7,8 +7,6 @@ export const Counter = (props) => {
     const changeCount = (value) => {
 
         setCount(count + value);
-
-
     };
     props.handleCount(count);
     // console.log(count)

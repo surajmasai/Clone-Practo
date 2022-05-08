@@ -18,7 +18,7 @@ export const Cart = () => {
     const [cartitem, setCartitem] = useState("")
 
     useEffect(() => {
-        fetch("http://localhost:5001/cart")
+        fetch("https://practo-suraj-server.herokuapp.com/cart")
             .then(d => d.json())
             .then((res) => {
                 // console.log('res:', res)

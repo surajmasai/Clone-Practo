@@ -17,7 +17,6 @@ mongoose.connect("mongodb://127.0.0.1:27017/myLoginRegisterDB", {
 })
 
 const userSchema = new mongoose.Schema({
-
     name: String,
     mobile: Number,
     password: String
@@ -92,5 +91,5 @@ app.post("/register", (req, res) => {
 })
 
 app.listen(2001, () => {
-    console.log("started at port 4005")
+    console.log("started at port 2001")
 })
